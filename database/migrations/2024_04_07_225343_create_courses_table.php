@@ -21,7 +21,6 @@ return new class extends Migration
                     ->on('categories')
                     ->onDelete('restrict');
 
-            // Foreign Keys
             $table->foreign('instructor_id')->references('id')->on('instructors');
             $table->foreign('category_id')->references('id')->on('categories');
         });

@@ -4,7 +4,7 @@
     <h1>Create New Category</h1>
 
     <form method="POST" action="{{ route('categories.store') }}">
-        @csrf  {{-- Important for security --}}
+        @csrf 
 
         <div>
             <label for="category_name">Category Name:</label>

@@ -16,7 +16,6 @@ return new class extends Migration
             $table->text('review_text');
             $table->timestamps();
 
-            // Foreign Keys
             $table->foreign('course_id')->references('id')->on('courses');
             $table->foreign('student_id')->references('id')->on('students');
         });

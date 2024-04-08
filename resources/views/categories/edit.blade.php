@@ -4,7 +4,7 @@
     <h1>Edit Category</h1>
 
     <form method="POST" action="{{ route('categories.update', $category->id) }}"> 
-        @method('PUT')  {{-- Necessary for update --}}
+        @method('PUT') 
         @csrf  
 
         <div>

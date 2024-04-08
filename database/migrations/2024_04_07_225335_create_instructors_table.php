@@ -19,7 +19,6 @@ return new class extends Migration
         });
     }
 
-    // ... down() method ...
 
     /**
      * Reverse the migrations.

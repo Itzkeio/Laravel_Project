@@ -5,7 +5,5 @@
 
     <p><strong>Name:</strong> {{ $category->category_name }}</p> 
 
-    {{-- Add more fields here as needed --}}
-
     <a href="{{ route('categories.index') }}">Back to Category List</a>
 @endsection

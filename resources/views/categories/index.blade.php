@@ -17,7 +17,7 @@
         <p>No categories found.</p>
     @endif
 
-    <a href="{{ route('categories.create') }}" class="btn btn-primary">Create New Category</a> {{-- Link to create form --}}
+    <a href="{{ route('categories.create') }}" class="btn btn-primary">Create New Category</a>
     <a href="{{ route('categories.edit', $category->id) }}">Edit</a>
     <a href="{{ route('categories.show', $category->id) }}">View Details</a>
 

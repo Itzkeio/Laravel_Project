@@ -15,7 +15,6 @@ return new class extends Migration
             $table->date('enrollment_date'); 
             $table->timestamps();
 
-            // Foreign Keys
             $table->foreign('student_id')->references('id')->on('students');
             $table->foreign('course_id')->references('id')->on('courses');
         });
